@@ -1,0 +1,2 @@
+#!/bin/bash
+java -cp jooq-3.17.8.jar:jooq-meta-3.17.8.jar:jooq-codegen-3.17.8.jar:reactive-streams-1.0.3.jar:r2dbc-spi-0.9.1.RELEASE.jar:jakarta.xml.bind-api-3.0.0.jar:h2-2.1.214.jar:. org.jooq.codegen.GenerationTool library.xml
